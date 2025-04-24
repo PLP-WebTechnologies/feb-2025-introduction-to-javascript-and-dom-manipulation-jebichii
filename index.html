@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript & DOM Manipulation</title>
+    <style>
+        .highlight {
+            color: rgb(109, 26, 187);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="main-title">Welcome to DOM Manipulation</h1>
+    </header>
+
+    <main>
+        <section>
+            <p id="dynamic-text">This text will change dynamically.</p>
+            <button onclick="changeText()">Change Text</button>
+        </section>
+
+        <section>
+            <p id="style-text">This paragraph will change its style.</p>
+            <button onclick="changeStyle()">Change Style</button>
+        </section>
+
+        <section>
+            <button onclick="addElement()">Add Element</button>
+            <button onclick="removeElement()">Remove Element</button>
+            <div id="element-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 JavaScript DOM Practice</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
